@@ -22,7 +22,6 @@ const Contact = () => {
       alert(res.message);
       event.target.reset();
     }
-   
   };
 
   return (
@@ -37,18 +36,18 @@ const Contact = () => {
             Let's Talk
           </h1>
           <p>I am currently working on new projects, so feel free to reach out to me.</p>
-          <div className="mt-6 space-y-4">
-            <div>
-              <Email color="white" h="25px" w="25px" /> 
-              <span className="ml-2">pandasipra300@gmail.com</span>
+          <div className="mt-6 space-y-14">
+            <div className="flex items-center">
+              <Email color="white" h="25px" w="25px" />
+              <span className="ml-4">pandasipra300@gmail.com</span>
             </div>
-            <div>
-              <Call color="white" h="25px" w="25px" /> 
-              <span className="ml-2">+91-9348463158</span>
+            <div className="flex items-center">
+              <Call color="white" h="25px" w="25px" />
+              <span className="ml-4">+91-9348463158</span>
             </div>
-            <div>
-              <Location color="white" h="25px" w="25px" /> 
-              <span className="ml-2">Sambalpur, Odisha, India</span>
+            <div className="flex items-center">
+              <Location color="white" h="25px" w="25px" />
+              <span className="ml-4">Bargarh, Odisha, India</span>
             </div>
           </div>
         </div>

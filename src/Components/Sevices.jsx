@@ -2,10 +2,23 @@ import React from "react";
 
 const Services = () => {
   const services = [
-    { id: 1, title: "Web Development", description: "Building responsive and modern websites." },
-    { id: 2, title: "Backend Development", description: "Creating scalable server-side applications." },
-    { id: 3, title: "UI/UX Design", description: "Designing user-friendly and appealing interfaces." },
+    {
+      id: 1,
+      title: "Frontend Development",
+      description: "Crafting beautiful UIs using React, Tailwind CSS, and JavaScript with smooth user experiences.",
+    },
+    {
+      id: 2,
+      title: "Backend Development",
+      description: "Building robust and scalable servers using Node.js, Express.js, and MongoDB.",
+    },
+    {
+      id: 3,
+      title: "Full Stack Development",
+      description: "Delivering complete web solutions from frontend to backend, with authentication, APIs, and DB integration.",
+    },
   ];
+  
 
   return (
     <div id="Services" className="services mx-auto max-w-6xl p-6">
@@ -21,9 +34,7 @@ const Services = () => {
             <h1 className="text-white text-5xl font-bold">{service.id}</h1>
             <h1 className="text-rose-700 text-2xl font-sans font-bold mt-2">{service.title}</h1>
             <p className="text-white w-full mt-2">{service.description}</p>
-            <button className="text-white rounded-lg border-2 border-white px-4 py-2 mt-4 hover:bg-pink-950 hover:border-red-600">
-              Read More
-            </button>
+            
           </div>
         ))}
       </div>
