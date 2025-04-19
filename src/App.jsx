@@ -26,7 +26,7 @@ function App() {
         <h1 className="font-bold text-3xl bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
           I'm Sipra,
         </h1>
-        <h1 className="text-white text-3xl text-fuchsia-500">
+        <h1 className="text-white text-3xl  ">
           Frontend Developer | Full-Stack Loading...
         </h1>
         <h1 className="text-white">
