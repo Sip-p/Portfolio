@@ -33,15 +33,13 @@ const AboutMe = () => {
             Who Am I?
           </h2>
           <p className="text-justify text-sm sm:text-base md:text-lg">
-            I am a passionate developer specializing in Frontend development and backend engineering.
-            My goal is to create impactful and user-friendly solutions. With a strong foundation in 
-            computer science and hands-on experience in building projects, I strive to continuously learn 
-            and grow in this dynamic field.
+            I am a passionate Full Stack Developer with expertise in both frontend and backend engineering. My goal is to create impactful, user-friendly solutions by seamlessly bridging design and functionality. With a strong foundation in computer science and hands-on experience in building projects across the tech stack, I thrive in crafting efficient, scalable, and dynamic applications. Continuously learning and adapting in this ever-evolving field, I aim to develop innovative solutions that enhance user experiences and drive digital transformation.
+
           </p>
         </div>
 
         {/* Photo */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-full lg:w-1/2 flex justify-center mt-4 lg:mt-0">
           <Photo />
         </div>
       </div>

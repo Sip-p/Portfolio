@@ -27,10 +27,12 @@ function App() {
           I'm Sipra,
         </h1>
         <h1 className="text-white text-3xl  ">
-          Frontend Developer | Full-Stack Loading...
+        Full Stack Developer  Architecting Seamless Digital Experiences
+
         </h1>
         <h1 className="text-white">
-          Frontend Developer based in Odisha, India | Soon-to-be Full-Stack
+          **Full Stack Developer | Building Scalable, Impactful Digital Solutions** 🚀
+
         </h1>
       </div>
       {/* Buttons Section */}

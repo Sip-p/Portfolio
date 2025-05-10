@@ -6,6 +6,8 @@ import portfolioImage from '../Components/images/pfol.png'; // Correct relative 
 import employeeImage from '../Components/images/empl.png'; // Correct relative path
 import chatAppImage from '../Components/images/images.jpeg'; // Correct relative path
 import storybook from '../Components/images/storybook.png'; // Correct relative path
+import freelance from '../Components/images/freelance.jpg'; // Correct relative path
+import Habit from '../Components/images/Habit.jpg'; // Correct relative path
 const Mywork = () => {
   const work = [
     {
@@ -36,7 +38,22 @@ const Mywork = () => {
       link: 'https://680402c5545e0a8ed82cd5a1-okczzkvyrx.chromatic.com/',
       status: 'Completed',
     },
-    
+    {
+      title: 'Food Delivery App',
+      description: 'A freelance project for building real-time grocery delivery platform.',
+      imageUrl: freelance, // Use an appropriate imported image
+      link: ' ',
+      status: 'Completed',
+
+    },
+    {
+      title: 'Habbit Tracker App',
+      description: 'A fully responsive Habbit Tracker App where You can set goal, add reminder,see progress and more.',
+      imageUrl: Habit, // Use an appropriate imported image
+      link: ' ',
+      status: 'Completed',
+
+    },
   ];
 
   const handleVisitClick = (link) => {

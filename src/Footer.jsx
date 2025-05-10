@@ -31,7 +31,7 @@ const Footer = () => {
             Subscribe
           </button>
         </div> */}
-        <div className='text-pink-950 text-3xl '>Thank You For Visiting...✨</div>
+        <div className='text-pink-800 text-3xl '>Thank You For Visiting...✨</div>
       </div>
        
       <hr className="border-t-2 border-gray-300 mt-6" />
