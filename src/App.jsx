@@ -1,0 +1,71 @@
+import { useState } from 'react';
+import './App.css';
+import Navbar from './Components/Navbar';
+import Photo from './Components/Photo';
+import Aboutme from './Components/Aboutme';
+import Sevices from './Components/Sevices';
+import Contact from './Components/Contact';
+import Footer from './Footer';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Mywork from './Components/Mywork';
+import ChatButton from './Components/ChatButton';
+import CursorAnimation from './Components/CursorAnimation';
+ import BackgroundStyle from './Components/backgroundStyle';
+function App() {
+  const handleclick = () => {
+    window.open('/BackenResume.pdf', '_blank');
+  };
+
+  return (
+
+    <div id="App" className="bg-transparent">
+      <BackgroundStyle/>
+      <Navbar />
+      
+      <CursorAnimation/>
+       
+      {/* Centered Photo Section */}
+      <div className="hidden sm:hidden md:flex justify-center items-center mt-10 hover:-hue-rotate-30 transition-transform  ">
+        <Photo />
+      </div>
+      {/* Introduction Section */}
+      <div className="text-center mt-6">
+        
+        <h1 className="font-bold text-3xl bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
+          I'm Sipra,
+        </h1>
+        <h1 className="text-white text-3xl  ">
+        Full Stack Developer  Architecting Seamless Digital Experiences
+
+        </h1>
+        <h1 className="text-white">
+          **Full Stack Developer | Building Scalable, Impactful Digital Solutions** 🚀
+
+        </h1>
+      </div>
+      {/* Buttons Section */}
+      <div className="flex justify-center gap-6 mt-10">
+        <button className="bg-gradient-to-r from-pink-500 to-orange-500 rounded-full px-4 py-2 hover:text-white">
+          <AnchorLink href="#Contact">Connect with me</AnchorLink>
+        </button>
+        <button
+          className="bg-black text-white border border-white px-4 py-2 rounded-full hover:border-pink-600"
+          onClick={handleclick}
+        >
+          My resume
+        </button>
+      </div>
+      {/* Other Sections */}
+      <Aboutme />
+      <Sevices />
+      <Mywork />
+      <Contact />
+      <Footer />
+      
+      <ChatButton />
+      {/* Scroll to Top Button */}
+    </div>
+  );
+}
+
+export default App;
