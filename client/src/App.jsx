@@ -9,21 +9,28 @@ import Footer from './Footer';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Mywork from './Components/Mywork';
 import ChatButton from './Components/ChatButton';
-
+import CursorAnimation from './Components/CursorAnimation';
+ import BackgroundStyle from './Components/backgroundStyle';
 function App() {
   const handleclick = () => {
     window.open('/BackenResume.pdf', '_blank');
   };
 
   return (
-    <div id="App" className="bg-black">
+
+    <div id="App" className="bg-transparent">
+      <BackgroundStyle/>
       <Navbar />
+      
+      <CursorAnimation/>
+       
       {/* Centered Photo Section */}
       <div className="hidden sm:hidden md:flex justify-center items-center mt-10 hover:-hue-rotate-30 transition-transform  ">
         <Photo />
       </div>
       {/* Introduction Section */}
       <div className="text-center mt-6">
+        
         <h1 className="font-bold text-3xl bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
           I'm Sipra,
         </h1>

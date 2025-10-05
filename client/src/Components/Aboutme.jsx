@@ -13,8 +13,8 @@ const AboutMe = () => {
   const skillsRight = [
     { skill: "MONGO DB", width: "70%" },
     { skill: "JWT", width: "65%" },
-    { skill: "NEXT JS", width: "60%" },
-    { skill: "THREE.JS", width: "30%" },
+    { skill: "NEXT JS", width: "30%" },
+    
     { skill: "REDUX TOOLKIT", width: "55%" },
     { skill: "JAVA", width: "75%" }, // Added Java skill
   ];
